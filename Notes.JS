@@ -30,7 +30,7 @@ function addTask() {
     task.innerHTML = `
         <div class="checkbox-wrapper">
             <input type="checkbox" onchange="toggleTaskComplete(this)">
-            <span>${taskText}</span>
+            <p class="yourClassName">${taskText}<p>
         </div>
         <div class="date-time-container">
             <div class="date">${taskDateString}</div>
